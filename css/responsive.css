@@ -1,0 +1,31 @@
+@media (max-width: 72em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+
+  .articel,
+  .group,
+  .bestselling {
+    padding: 2rem;
+  }
+  .articel {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .group {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+  }
+  .heading-1 {
+    font-size: 5rem;
+  }
+  .header__text {
+    font-size: 2rem;
+  }
+}
+
